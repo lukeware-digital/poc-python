@@ -37,7 +37,7 @@ SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 INPUT_CSV  = os.path.join(SCRIPT_DIR, "registro-ans-unificado-com-cnpj.csv")
 OUTPUT_CSV = os.path.join(SCRIPT_DIR, "registro-ans-unificado-com-todos-os-dados.csv")
 
-REQUEST_SLEEP = 0.7   # intervalo entre páginas (educado)
+REQUEST_SLEEP = 1   # intervalo entre páginas (educado)
 BATCH_SIZE    = 10    # salva a cada N registros
 
 PHONE_REGEX = re.compile(r"\(?\d{2}\)?\s?\d{4,5}-?\d{4}")
