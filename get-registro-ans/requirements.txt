@@ -5,3 +5,4 @@ lxml
 requests
 tqdm
 webdriver-manager
+selenium-wire
